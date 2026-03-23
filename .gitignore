@@ -5,5 +5,5 @@ token.pickle
 node_modules/
 __pycache__/
 .env
-.agent/
+# .agent/ is now tracked for Skill sharing
 *.log
