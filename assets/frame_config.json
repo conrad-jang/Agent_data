@@ -1,0 +1,34 @@
+{
+  "frame_info": {
+    "name": "dopamine_lab_frame",
+    "resolution": { "width": 1080, "height": 1920 },
+    "file_name": "dopamine_frame.png"
+  },
+  "areas": {
+    "title_bar": {
+      "description": "상단 제목 바 위치",
+      "top": 50,
+      "left": 40,
+      "width": 1000,
+      "height": 150,
+      "text_color": "#FFFFFF",
+      "font_size": 70
+    },
+    "video_content": {
+      "description": "원본 영상이 들어갈 중앙 투명 영역",
+      "top": 250,
+      "left": 90,
+      "width": 900,
+      "height": 1400,
+      "z_index": 1
+    },
+    "channel_bar": {
+      "description": "하단 도파민연구소 채널 바 위치",
+      "top": 1700,
+      "left": 50,
+      "width": 980,
+      "height": 180,
+      "text": "도파민 연구소"
+    }
+  }
+}
