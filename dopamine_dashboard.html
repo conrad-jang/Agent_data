@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[도파민연구소] 프로젝트 대시보드</title>
+    <style>
+        :root {
+            --bg-color: #0b0e14;
+            --accent-pink: #ff00ff;
+            --accent-cyan: #00ffff;
+            --card-bg: #1a1f29;
+            --text-color: #ffffff;
+            --neon-shadow: 0 0 10px rgba(255, 0, 255, 0.5);
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 2px solid var(--accent-pink);
+            padding-bottom: 10px;
+            width: 100%;
+            max-width: 1000px;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            text-shadow: 0 0 15px var(--accent-pink);
+            color: var(--accent-pink);
+        }
+
+        .header p {
+            color: var(--accent-cyan);
+            font-style: italic;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            width: 100%;
+            max-width: 1000px;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+            border-left: 5px solid var(--accent-cyan);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+        }
+
+        .card h2 {
+            margin-top: 0;
+            color: var(--accent-cyan);
+            border-bottom: 1px solid #333;
+            padding-bottom: 10px;
+        }
+
+        .status-box {
+            background: #000;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+            color: #ddd;
+            overflow-x: auto;
+            white-space: pre-wrap;
+        }
+
+        .tag {
+            display: inline-block;
+            background: var(--accent-pink);
+            color: #000;
+            padding: 2px 10px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .links a {
+            color: #aaa;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 8px;
+            padding: 5px;
+            border-radius: 4px;
+            transition: background 0.2s;
+        }
+
+        .links a:hover {
+            background: rgba(0, 255, 255, 0.1);
+            color: var(--accent-cyan);
+        }
+
+        footer {
+            margin-top: 50px;
+            color: #555;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>도파민연구소</h1>
+        <p>전 세계 도파민을 추출하여 60초에 담는 혁신 기술 기지</p>
+    </div>
+
+    <div class="grid">
+        <!-- Git Status Card -->
+        <div class="card">
+            <div class="tag">GIT STATUS</div>
+            <h2>시스템 버전 관리</h2>
+            <div class="status-box">
+On branch master
+No commits yet
+
+Changes to be committed:
+  new file: gidaeri_img/
+  new file: munjakga_img/
+
+Untracked files:
+  trends.json
+  assets/branding/
+  scripts/
+            </div>
+        </div>
+
+        <!-- Scripts Card -->
+        <div class="card">
+            <div class="tag">VIDEO SCRIPTS</div>
+            <h2>영상 제작 대본 현황</h2>
+            <div class="links">
+                <a href="file:///d:/AI Porject/shorts_factory/script_ultrasonic_knife_Shorts.md">✔️ 1순위: 초음파 식도 (완료)</a>
+                <a href="file:///d:/AI Porject/shorts_factory/script_roborock_saros_Shorts.md">✔️ 2순위: 계단 청소기 (완료)</a>
+                <a href="file:///d:/AI Porject/shorts_factory/script_smart_planter_Shorts.md">✔️ 3순위: 감정 화분 (완료)</a>
+                <a href="file:///d:/AI Porject/shorts_factory/script_365buttons_Shorts.md">✔️ 기획안: 365 버튼 (완료)</a>
+            </div>
+        </div>
+
+        <!-- Branding Assets Card -->
+        <div class="card">
+            <div class="tag">BRANDING ASSETS</div>
+            <h2>채널 시각 자산 (Identity)</h2>
+            <div class="links">
+                <a href="file:///d:/AI Porject/shorts_factory/assets/branding/dopamine_lab_logo.png">🖼️ 공식 로고 (V3 Neon)</a>
+                <a href="file:///d:/AI Porject/shorts_factory/assets/branding/dopamine_lab_banner.png">🖼️ 공식 배너 (V3 Lab)</a>
+                <a href="file:///d:/AI Porject/shorts_factory/assets/branding/thumbnail_concept.png">🖼️ 썸네일 컨셉안</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 도파민연구소 | Produced by Solopreneur AI Agents [기대리, 문작가, 편집감독]
+    </footer>
+</body>
+</html>

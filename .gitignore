@@ -1,0 +1,9 @@
+# Secrets
+(Shorts)client_secrets.json.json
+token.pickle
+*.tmp
+node_modules/
+__pycache__/
+.env
+.agent/
+*.log

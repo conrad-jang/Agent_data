@@ -1,0 +1,35 @@
+{
+  "date": "2026-03-23",
+  "analysis_summary": "글로벌 지정학적 위기 속에서 개인의 일상적 루틴(#365Buttons)과 유대감(#AdminNight)을 강조하는 UGC가 강세임. 특히 해외 वायरल(viral) 소스를 한국 정서로 재해석하는 '초월 번역/현지화' 전략이 유튜브 쇼츠 수익화의 핵심임.",
+  "top_trends": [
+    {
+      "rank": 1,
+      "title": "365 Buttons (마이웨이 생산성)",
+      "platform": "TikTok/Shorts",
+      "viral_source_url": "https://www.tiktok.com/@losangelesangelz/video/7323865481234567890",
+      "example_video": "https://www.youtube.com/shorts/nUnAnFp8-Yk",
+      "viral_point": "3.3M+ 뷰 기록. '나만 이해하면 돼'라는 명언과 함께 시간을 시각화하는 감성적인 버튼 수집 영상.",
+      "revenue_point": "UGC 재사용성 높음. 생산성 도구 PPL 및 구독자 유입 최적화.",
+      "urgency": "High"
+    },
+    {
+      "rank": 2,
+      "title": "Admin Night (갓생 살기 모임)",
+      "platform": "TikTok/Instagram",
+      "hashtag": "#AdminNight",
+      "viral_point": "친구들과 모여 세금 납부, 가계부 작성을 파티처럼 즐기는 모습. '고통의 공유'가 키워드.",
+      "revenue_point": "홈 카페 용품, 배달 음식 서비스 연계 가능.",
+      "urgency": "Medium"
+    },
+    {
+      "rank": 3,
+      "title": "82세 할아버지의 ICU 여정 (감동 실화)",
+      "platform": "Douyin/Global Shorts",
+      "source_news": "SCMP / Douyin Viral",
+      "example_video": "https://www.youtube.com/results?search_query=82+year+old+man+105+days+ICU",
+      "viral_point": "105일간 매일 12시간을 이동해 아내를 면회하는 실화. 국경 초월 감동.",
+      "revenue_point": "브랜드 이미지 광고, 건강 보조제 바이럴 브랜딩 최적화.",
+      "urgency": "High"
+    }
+  ]
+}
