@@ -5,15 +5,19 @@ dopamin_labs_key.json
 token.pickle
 (Shorts)client_secrets.json.json
 .env
+*.xlsx
 
-# 2. 대용량 미디어 및 영상 관련 폴더 (제외 대상)
+# 2. 파이썬 코드 전체 (API 키 하드코딩 방지를 위해 로컬에서만 유지)
+*.py
+
+# 3. 대용량 미디어 및 영상 관련 폴더 (제외 대상)
 original/
 output/
 director_img/
 gidaeri_img/
 munjakga_img/
 
-# 3. 개발 환경 및 캐시
+# 4. 개발 환경 및 캐시
 .venv/
 __pycache__/
 *.tmp
@@ -21,12 +25,12 @@ __pycache__/
 node_modules/
 .pytest_cache/
 
-# 4. 기타 임시 파일
+# 5. 기타 임시 파일
 temp-audio.m4a
 *.wav
 *.mp3
 
-# --- 필요한 자산(Assets)과 대본(Script)은 유지합니다 ---
+# --- 필요한 자산(Assets)과 지식(Knowledge/Skills)은 유지합니다 ---
 # !assets/fonts/
 # !assets/frame_config.json
 # !script/
