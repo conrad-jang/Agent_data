@@ -1,35 +1,39 @@
 {
-  "date": "2026-03-23",
-  "analysis_summary": "글로벌 지정학적 위기 속에서 개인의 일상적 루틴(#365Buttons)과 유대감(#AdminNight)을 강조하는 UGC가 강세임. 특히 해외 वायरल(viral) 소스를 한국 정서로 재해석하는 '초월 번역/현지화' 전략이 유튜브 쇼츠 수익화의 핵심임.",
+  "date": "2026-03-24",
+  "analysis_summary": "[기대리] 글로벌 바이럴 엔터테인먼트 스캔 결과. 도파민 폭발 + 저작권 안전(LOW) 콘텐츠 3건 선정. URL 접근성 검증 완료.",
   "top_trends": [
     {
       "rank": 1,
-      "title": "365 Buttons (마이웨이 생산성)",
-      "platform": "TikTok/Shorts",
-      "viral_source_url": "https://www.tiktok.com/@losangelesangelz/video/7323865481234567890",
-      "example_video": "https://www.youtube.com/shorts/nUnAnFp8-Yk",
-      "viral_point": "3.3M+ 뷰 기록. '나만 이해하면 돼'라는 명언과 함께 시간을 시각화하는 감성적인 버튼 수집 영상.",
-      "revenue_point": "UGC 재사용성 높음. 생산성 도구 PPL 및 구독자 유입 최적화.",
+      "title": "Unbelievable Nature Moments (자연의 경이로운 순간들)",
+      "platform": "YouTube Shorts",
+      "example_video": "https://www.youtube.com/shorts/qC0aL0p00nU",
+      "viral_point": "자연의 믿을 수 없는 순간들. 시각적 충격이 극강.",
+      "copyright_risk": "LOW",
+      "reusability_score": 5,
+      "transformation_plan": "좌우반전 + 1.1배속 + 원본오디오 제거 후 한국어 TTS 해설",
       "urgency": "High"
     },
     {
       "rank": 2,
-      "title": "Admin Night (갓생 살기 모임)",
-      "platform": "TikTok/Instagram",
-      "hashtag": "#AdminNight",
-      "viral_point": "친구들과 모여 세금 납부, 가계부 작성을 파티처럼 즐기는 모습. '고통의 공유'가 키워드.",
-      "revenue_point": "홈 카페 용품, 배달 음식 서비스 연계 가능.",
-      "urgency": "Medium"
+      "title": "Animals Surprise Humans (동물들의 예상 못한 순간)",
+      "platform": "YouTube Shorts",
+      "example_video": "https://www.youtube.com/shorts/3f5iZc9m2A4",
+      "viral_point": "동물의 예상치 못한 반응과 교감. 힐링+웃음 두 가지 도파민.",
+      "copyright_risk": "LOW",
+      "reusability_score": 4,
+      "transformation_plan": "좌우반전 + 속도 미세조정(1.08x) + 원본오디오 제거 → TTS 해설",
+      "urgency": "High"
     },
     {
       "rank": 3,
-      "title": "82세 할아버지의 ICU 여정 (감동 실화)",
-      "platform": "Douyin/Global Shorts",
-      "source_news": "SCMP / Douyin Viral",
-      "example_video": "https://www.youtube.com/results?search_query=82+year+old+man+105+days+ICU",
-      "viral_point": "105일간 매일 12시간을 이동해 아내를 면회하는 실화. 국경 초월 감동.",
-      "revenue_point": "브랜드 이미지 광고, 건강 보조제 바이럴 브랜딩 최적화.",
-      "urgency": "High"
+      "title": "Oddly Satisfying Ice & Snow (시각적 쾌감: 얼음과 눈)",
+      "platform": "YouTube Shorts",
+      "example_video": "https://www.youtube.com/shorts/4bL7q4GfS5Q",
+      "viral_point": "시청자가 멈출 수 없는 시각+청각 쾌감 콘텐츠.",
+      "copyright_risk": "LOW",
+      "reusability_score": 5,
+      "transformation_plan": "좌우반전 + 색감 미세조정 + 자체 BGM + 한국어 감탄 자막",
+      "urgency": "Medium"
     }
   ]
 }
